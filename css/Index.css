@@ -1,120 +1,31 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+.cursor{
+    cursor: pointer;
+}
+.nav-hover:hover{
+    color: gray;
 }
 
-header{
-    display: flex; 
-    justify-content: flex-end;
-    align-items: center;
-    padding: 20px 0 0 30px;
-}
-
-ul li{
-    display: inline-block;
-    list-style: none;
-    margin-right: 20px;
-    font-weight: 800;
-    font-size: 16px;
-}
-
-.logo{
-    margin-right: auto;
-    font-weight: 800;
-    font-size: 20px;
-}
-
-.nav-apply{
-    background-color: black;
-    color: white;
+.rounded-custom{
     border-radius: 50px;
-    width: 203px;
-    height: 53px;
-    font-size: 20px;
+    width: 150px;
 }
 
-.search{
-    margin-top: 2px;
-    margin-right: 50px;
-    cursor: pointer;
+.m-t{
+    border: 1px solid red;
 }
 
-input{
-    cursor: pointer;
+.tel{
+    margin-left: 25px;
 }
 
-a{
-    color: black;
-    text-decoration: none;
-}
-
-/* ##########################  grid-container and item1 item2 */
-
-.grid-container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    margin-top: 255px;
-}
-
-.question{
-    width: 240px;
-    height: 42px;
-    background-color: black;
-    border-radius: 50px;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
-    cursor: pointer;
-    
-}
-
-.p-question{
-    color: white;
-    text-align: center;
-    padding: 11px;
+.icon-tel{
     margin-left: 10px;
 }
 
-.cicle{
-    width: 30px;
-    height: 30px;
-    background-color: white;
-    border-radius: 50px;
-    margin-right: 10px;
-    margin-top: 5px;
+.mt-section-cutom{
+    margin-top: 265px;
 }
 
-.cicle-arrow{
-    margin-top: 6px;
-    margin-left: 4px;
+.music{
+    margin-top: 15rem;
 }
-
-.item1{
-    margin-left: 70px;
-}
-
-.item1-d{
-    padding-top: 40px;
-}
-
-/* #################### Icon social item3*/
-.item3{
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 40px;
-}
-.facebook{
-    margin-bottom: 65px;
-    cursor: pointer;
-}
-
-.twitter{
-    margin-bottom: 65px;
-    cursor: pointer;
-}
-
-.linkedin{
-    cursor: pointer;
-}
-
